@@ -70,6 +70,7 @@ You must have each song in a separate folder, when the ai builds its json respon
 - Mood-based playback (“play something chill”) 
 - Download-as-zip for albums
 - Config UI
+- equalizer on its way in next build!
 
 ---
 
