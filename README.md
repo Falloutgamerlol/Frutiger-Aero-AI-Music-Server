@@ -78,4 +78,4 @@ I made this to revive my old CD collection and give it a second life—with the 
 
 It’s fast, private, and honestly... kinda cool.
 
-⚠️Disclaimer, code was ai assisted⚠️
+⚠️Disclaimers, code was ai assisted, if you want it to be fully ran locally you cant have voice recognition without a separate service running, this also applies to the itunes api integrated⚠️
