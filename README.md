@@ -27,7 +27,7 @@ A self-hosted, fully-local, **voice-controlled AI jukebox** built with PHP, WebS
 
 www/ ├── Music/ │   ├── songname/ │   │   └── Songname.mp3 │   ├── songname/ │   │   └── songname.mp3 │   └── etc...
 
-You can also just drop multiple songs into one folder if preferred—both styles are supported.
+You must have each song in a separate folder, when the ai builds its json response the json is programmed to look for the directory then play the song within the directory.
 
 4. (Optional) For secure remote access:
    - Install [Cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/)
@@ -42,6 +42,7 @@ You can also just drop multiple songs into one folder if preferred—both styles
 - It returns structured JSON (like a song list or playback command)
 - `index.php` parses that JSON and handles everything from playback to randomization
 - The browser handles album art fetches from iTunes and voice input through WebSpeech
+- Fuzzy-matching for song names using Levenshtein distance (handles typos, vague names, or imprecise voice input)
 
 ---
 
@@ -65,8 +66,8 @@ You can also just drop multiple songs into one folder if preferred—both styles
 
 ## 🚧 Coming Soon (Maybe)
 
-- Playlist support
-- Mood-based playback (“play something chill”)
+- Playlist support: On its way soon!
+- Mood-based playback (“play something chill”) 
 - Download-as-zip for albums
 - Config UI
 
