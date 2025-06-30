@@ -77,3 +77,5 @@ You can also just drop multiple songs into one folder if preferred—both styles
 I made this to revive my old CD collection and give it a second life—with the flair and nostalgia of Aero-era interfaces, but the power of modern LLMs and voice AI.
 
 It’s fast, private, and honestly... kinda cool.
+
+⚠️Disclaimer, code was ai assisted⚠️
