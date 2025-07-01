@@ -38,7 +38,7 @@ You must have each song in a separate folder, when the ai builds its json respon
 
 ## 🧠 How It Works
 
-- The LLM (a tiny local 0.5b model) runs locally and interprets voice commands
+- The LLM (a tiny local 0.5b model) runs locally and interprets voice commands, if you have a more powerful machine I recommend the gemma3n:e2b model, its state of the art at the moment and is incredibly accurate.
 - It returns structured JSON (like a song list or playback command)
 - `index.php` parses that JSON and handles everything from playback to randomization
 - The browser handles album art fetches from iTunes and voice input through WebSpeech
