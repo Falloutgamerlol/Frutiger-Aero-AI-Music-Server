@@ -71,6 +71,7 @@ You must have each song in a separate folder, when the ai builds its json respon
 - Download-as-zip for albums
 - Config UI
 - equalizer on its way in next build!
+- media session api, already done but not in this build just yet
 
 ---
 
